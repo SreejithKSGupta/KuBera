@@ -1,15 +1,16 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged } from 'firebase/auth';
 import { getDatabase, ref, child, set, get, remove } from 'firebase/database';
+
+
 const firebaseConfig = {
-  apiKey: "AIzaSyArN0C2C3486hVfwsWs6YPswc9PGOPQSzU",
-  authDomain: "doit-2255.firebaseapp.com",
-  projectId: "doit-2255",
-  storageBucket: "doit-2255.appspot.com",
-  messagingSenderId: "361829619072",
-  appId: "1:361829619072:web:06ea71945b80f813035d65",
-  measurementId: "G-BVKZNLZB6Z",
-  databaseURL: "https://doit-2255-default-rtdb.asia-southeast1.firebasedatabase.app/"
+  apiKey: "AIzaSyDkSFAisowtGZzPyCYkVaKCp8UGw8Yws9A",
+  authDomain: "kubera5559.firebaseapp.com",
+  projectId: "kubera5559",
+  storageBucket: "kubera5559.appspot.com",
+  messagingSenderId: "802149611443",
+  appId: "1:802149611443:web:fa15b8d5f787bc560d7dc6",
+  measurementId: "G-N2RQ9YCB17"
 };
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
