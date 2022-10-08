@@ -154,8 +154,8 @@ function setuser() {
       id('userimg').src = '../res/defuser.webp';
       id('signinoutbtn').src = '../res/defuser.webp';
       id('signinout').innerHTML = "Sign in";
+      alert('please sign in to use the app, you can still use the app as a guest but you will not be able to save your data, and you will not be able to restore your data if you sign in later');
       showhide('userpopup');
-      alert('please sign in to use the app, you can use the app as a guest but you will not be able to save your data, and you will not be able to restore your data if you sign in later');
     }
   });
 }
